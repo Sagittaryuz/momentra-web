@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="google-site-verification" content="5HY5X-cP3YWGSl0ccyzxL3zp_MOYrR91bAe9EbzrC8c">
+  <meta name="description" content="Conheça o Momentra, câmera nativa para iPhone com fotos e vídeos, carimbos personalizáveis, localização e galeria.">
+  <title>Momentra · Câmera e carimbos para iPhone</title>
+  <link rel="icon" href="/icone.png">
+  <link rel="stylesheet" href="/estilo.css">
+  <script src="/movimento.js" defer></script>
+</head>
+<body class="landing">
+  <a class="skip" href="#conteudo">Pular para o conteúdo</a>
+  <header class="site-header wrap">
+    <a class="brand" href="/"><img src="/icone.png" width="42" height="42" alt="">Momentra</a>
+    <nav aria-label="Navegação principal">
+      <a href="#recursos">Recursos</a>
+      <a href="#demo">Demonstração</a>
+    </nav>
+  </header>
+
+  <main id="conteudo">
+    <section class="hero wrap" aria-labelledby="titulo">
+      <div class="hero-copy">
+        <h1 id="titulo">Um milhão de fotos da obra?</h1>
+        <p class="intro">Cansado de fotografar a obra e lotar o armazenamento do iPhone?</p>
+        <p class="hero-answer">A solução é <em>Momentra.</em></p>
+        <p>Câmera nativa para <strong>iPhone (iOS)</strong>, com carimbos personalizáveis e organização por obra.</p>
+        <a class="button" href="#demo">Ver como funciona <span aria-hidden="true">↓</span></a>
+      </div>
+      <figure class="hero-visual founder">
+        <img src="/marcos-cartoon.webp" width="800" height="800" alt="Ilustração de Marcos sorrindo, de capacete de engenheiro e camiseta grafite, com o iPhone na mão">
+        <figcaption>Marcos Rodrigues Pires · criador do Momentra</figcaption>
+      </figure>
+    </section>
+
+    <section class="section wrap" id="recursos" aria-labelledby="recursos-titulo">
+      <h2 id="recursos-titulo">Recursos do Momentra</h2>
+      <div class="feature-grid">
+        <article>
+          <h3>Foto e vídeo</h3>
+          <p>Alterne entre as câmeras frontal e traseira. Use flash, temporizador, grade, zoom e lentes disponíveis no iPhone. Escolha os formatos 4:3, 16:9 ou 1:1 e grave vídeo com áudio.</p>
+          <p>Nos modelos compatíveis, acesse a câmera pelo controle de câmera e abra a captura pela tela bloqueada.</p>
+        </article>
+        <article>
+          <h3>Carimbos personalizáveis</h3>
+          <p>Crie perfis com título, observação e logotipo. Ajuste cantos, posição e margens e confira a prévia ao vivo. Aplique o carimbo na captura ou crie uma cópia carimbada de uma foto existente.</p>
+          <p>Inclua data, hora, localização, endereço, mapa, altitude e pressão local quando disponíveis. A previsão meteorológica consulta automaticamente dados da MET Norway quando a localização está habilitada e a opção do perfil está ligada.</p>
+        </article>
+        <article>
+          <h3>Galeria e originais</h3>
+          <p>Visualize as capturas do app e as fotos autorizadas da biblioteca. Navegue e selecione imagens por gestos, consulte os perfis de carimbo e compartilhe cópias. Escolha se quer manter também o original sem carimbo.</p>
+        </article>
+        <article>
+          <h3>Ajustes e atalhos</h3>
+          <p>Leia códigos QR e reconheça texto pelo visor. Personalize o ícone, escolha se novas capturas serão copiadas para o app Fotos e receba avisos de atualização no Momentra.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section cloud-section" aria-labelledby="nuvem-titulo">
+      <div class="wrap cloud-layout">
+        <div>
+          <h2 id="nuvem-titulo">Google Drive e OneDrive</h2>
+          <p>Na versão 0.1.12, escolha destinos independentes no iPhone e em múltiplas contas do Google Drive e do Microsoft OneDrive. A câmera dá retorno visual ao fotografar e mostra o contador durante a gravação.</p>
+          <p>A fila retoma os envios quando a conexão volta e verifica o original e a versão processada em cada destino escolhido na captura. A galeria anterior do Google Fotos continua separada.</p>
+        </div>
+        <div class="providers" aria-label="Destinos de armazenamento">
+          <div class="provider"><img src="/drive.png" width="38" height="38" loading="lazy" alt=""><span><strong>Google Drive™</strong><small>Arquivos usados com o app</small></span></div>
+          <div class="provider"><img src="/onedrive.svg" width="38" height="38" loading="lazy" alt=""><span><strong>Microsoft OneDrive</strong><small>Pasta do aplicativo</small></span></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section wrap demo-section" id="demo" aria-labelledby="demo-titulo">
+      <div class="demo-copy">
+        <h2 id="demo-titulo">Da obra ao arquivo</h2>
+        <p>Experimente o carimbo e escolha para onde a captura iria. Esta demonstração no site usa uma imagem ilustrativa e não envia arquivos.</p>
+        <label class="switch"><input id="stamp-toggle" type="checkbox" checked> Mostrar carimbo</label>
+        <fieldset class="destinations">
+          <legend>Destinos da captura</legend>
+          <label><input type="checkbox" name="destination" value="iPhone" checked> iPhone</label>
+          <label><input type="checkbox" name="destination" value="Google Drive"> Google Drive</label>
+          <label><input type="checkbox" name="destination" value="OneDrive"> OneDrive</label>
+        </fieldset>
+        <p id="demo-status" class="demo-status" aria-live="polite">Destino selecionado: iPhone.</p>
+      </div>
+      <figure class="demo-photo">
+        <img src="/cerrado.webp" width="1060" height="795" loading="lazy" alt="Paisagem ilustrativa usada para demonstrar o carimbo">
+        <figcaption id="demo-stamp"><strong>Vistoria de campo</strong><br>18/11/2026 · 17h42<br>Registro de acompanhamento</figcaption>
+      </figure>
+      <figure class="demo-camera">
+        <img src="/camera.webp" width="560" height="1218" loading="lazy" alt="Interface real do Momentra no simulador com temporizador, seleção de formato e obturador">
+        <figcaption>Tela do app no simulador</figcaption>
+      </figure>
+    </section>
+
+    <section class="section wrap download" id="download" aria-labelledby="download-titulo">
+      <h2 id="download-titulo">Momentra para iPhone</h2>
+      <p>O canal oficial oferece a <strong>0.1.22</strong> para iOS. Use a pinça no visor para ajustar o zoom e mantenha a miniatura pressionada para compartilhar. A galeria reúne as cópias da mesma foto e identifica onde ela está salva. A instalação é privada e assinada para o iPhone de destino.</p>
+      <a class="button" href="https://github.com/Sagittaryuz/momentra/releases/tag/native-ios-v0.1.22">Acessar a versão oficial <span aria-hidden="true">↗</span></a>
+    </section>
+  </main>
+
+  <a class="button fixed-download" href="#download">Download para iOS <span aria-hidden="true">↓</span></a>
+
+  <footer class="wrap site-footer">
+    <span>Momentra · Câmera para iOS</span>
+    <nav aria-label="Informações legais"><a href="/privacidade.html">Privacidade</a><a href="/termos.html">Termos</a></nav>
+    <small>Google Drive é uma marca da Google LLC. OneDrive é uma marca da Microsoft.</small>
+  </footer>
+</body>
+</html>
